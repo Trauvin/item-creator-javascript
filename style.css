@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 30px;
+  padding: 30px;
+}
+
+select {
+  display: block;
+  margin: 20px 0px 20px 5px;
+  font-family: "Roboto Mono", monospace;
+}
+
+label {
+  font-family: "Roboto Mono", monospace;
+  margin-left: 5px;
+}
+
+.form {
+  background: #ccc;
+}
+
+.grid-section {
+  background: #ccc;
+}
+
+.grid-generated {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 50px;
+  gap: 10px;
+}
+
+.item {
+  background: tomato;
+  width: 100px;
+}
